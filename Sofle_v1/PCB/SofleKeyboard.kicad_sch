@@ -5,140 +5,6 @@
 	(uuid "3c907a8e-c697-404d-9baf-89287abfa236")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:Jumper"
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Device_Jumper"
-				(at 0 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_0_1"
-				(circle
-					(center -2.54 0)
-					(radius 0.889)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.4892 1.27)
-					(mid 0.0077 2.4896)
-					(end 2.5146 1.27)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.889)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 4.191)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 4.191)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Jumper_NO_Small"
 			(pin_numbers
 				(hide yes)
@@ -2592,7 +2458,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SofleKeyboard-rescue:i2c_pin-Lily58-cache-Lily58_Pro-rescue"
+		(symbol "SofleKeyboard:Conn_01x02_Female"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -2608,8 +2477,166 @@
 					)
 				)
 			)
-			(property "Value" "i2c_pin-Lily58-cache-Lily58_Pro-rescue"
-				(at 0 -2.54 0)
+			(property "Value" "Conn_01x02_Female"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Female_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.508 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.508 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SofleKeyboard:GND-Lily58-cache"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND-Lily58-cache"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2643,7 +2670,66 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_??x*mm* Connector*:*1x??x*mm* Pin?Header?Straight?1X* Pin?Header?Angled?1X* Socket?Strip?Straight?1X* Socket?Strip?Angled?1X*"
+			(symbol "GND-Lily58-cache_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SofleKeyboard:Sofle_SW_SPST"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Sofle_SW_SPST"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2652,33 +2738,74 @@
 					(hide yes)
 				)
 			)
-			(symbol "i2c_pin-Lily58-cache-Lily58_Pro-rescue_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type solid)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type background)
-					)
+					(hide yes)
 				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Sofle_SW_SPST_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type solid)
 					)
 					(fill
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Sofle_SW_SPST_1_1"
 				(pin passive line
 					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2686,6 +2813,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3043,12 +3188,6 @@
 		(uuid "80a6ece2-d89b-4180-9f2f-24ed00f372ce")
 	)
 	(junction
-		(at 67.31 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81402ef8-b6c4-4585-9963-695e474a4394")
-	)
-	(junction
 		(at 152.4 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3229,8 +3368,8 @@
 		(uuid "fb643094-ef36-497c-ab29-85fa06c4db49")
 	)
 	(no_connect
-		(at 74.93 45.72)
-		(uuid "d38e7eda-675b-4c0c-a056-abddca8bd39a")
+		(at 57.15 99.06)
+		(uuid "0e08e483-3ef0-4100-8c8f-6b355d0b8ee5")
 	)
 	(wire
 		(pts
@@ -3311,16 +3450,6 @@
 			(type default)
 		)
 		(uuid "12902388-0218-4af2-aecf-4cb3850bc235")
-	)
-	(wire
-		(pts
-			(xy 57.15 99.06) (xy 67.31 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1682e193-e65b-4f97-8931-5d845cf0a761")
 	)
 	(wire
 		(pts
@@ -3724,7 +3853,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 107.95) (xy 67.31 107.95)
+			(xy 57.15 107.95) (xy 62.23 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3761,6 +3890,16 @@
 			(type default)
 		)
 		(uuid "8ce4eaf1-5139-48a8-943c-6adea10ad472")
+	)
+	(wire
+		(pts
+			(xy 124.46 25.4) (xy 138.43 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d6d67c4-5497-475d-8b0e-aa3bf77afb40")
 	)
 	(wire
 		(pts
@@ -4044,6 +4183,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 31.75) (xy 125.73 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb110cd-ad6b-4395-a5a1-b5ccffc70c3c")
+	)
+	(wire
+		(pts
 			(xy 152.4 90.17) (xy 172.72 90.17)
 		)
 		(stroke
@@ -4071,6 +4220,16 @@
 			(type default)
 		)
 		(uuid "e08ebbe9-ab6f-4174-8397-c2ed4972927c")
+	)
+	(wire
+		(pts
+			(xy 125.73 27.94) (xy 138.43 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1611085-2d83-4db5-a444-b0beb5457cac")
 	)
 	(wire
 		(pts
@@ -4192,25 +4351,15 @@
 		)
 		(uuid "fe5c4408-db4e-4ecf-bc0f-90e1e382e264")
 	)
-	(label "i2c_d"
-		(at 62.23 107.95 0)
+	(label "BATT_HIGH"
+		(at 127 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "114c8a86-7a50-48f8-965e-79879ea15e5e")
-	)
-	(label "i2c_c"
-		(at 60.96 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e966b347-ce06-4907-8a7f-c7fd3d668d4a")
+		(uuid "1ab9b820-78eb-4f54-be33-33ffd825c08d")
 	)
 	(global_label "ENCA"
 		(shape input)
@@ -4508,6 +4657,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B_RAW"
+		(shape input)
+		(at 114.3 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d67f9bc-d4c1-4e6f-b39d-03fa47741f09")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.9214 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4872,6 +5043,28 @@
 			)
 		)
 	)
+	(global_label "B_RAW"
+		(shape input)
+		(at 74.93 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bcf8368d-5369-4570-8370-976860f0551b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.3086 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "col6"
 		(shape input)
 		(at 41.91 60.96 180)
@@ -4914,7 +5107,7 @@
 	)
 	(global_label "DATA"
 		(shape input)
-		(at 82.55 107.95 0)
+		(at 62.23 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4923,7 +5116,7 @@
 		)
 		(uuid "c0d552ca-ab22-4686-adea-3df46fffa6c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.55 107.95 0)
+			(at 62.23 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10705,197 +10898,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SofleKeyboard-rescue:i2c_pin-Lily58-cache-Lily58_Pro-rescue")
-		(at 67.31 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b8f6780")
-		(property "Reference" "P1"
-			(at 64.77 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "i2c_pin"
-			(at 67.31 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SofleKeyboard-footprint:1pin_conn"
-			(at 67.31 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "87b75b7a-09b9-4e2d-8c0b-830275ab93bd")
-		)
-		(instances
-			(project ""
-				(path "/3c907a8e-c697-404d-9baf-89287abfa236"
-					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:i2c_pin-Lily58-cache-Lily58_Pro-rescue")
-		(at 67.31 113.03 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b8f6980")
-		(property "Reference" "P2"
-			(at 64.77 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "i2c_pin"
-			(at 67.31 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SofleKeyboard-footprint:1pin_conn"
-			(at 67.31 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "97d5a8f3-4311-4a54-bfbc-716bd3cb8f36")
-		)
-		(instances
-			(project ""
-				(path "/3c907a8e-c697-404d-9baf-89287abfa236"
-					(reference "P2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Jumper")
-		(at 74.93 107.95 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005b900157")
-		(property "Reference" "W1"
-			(at 74.93 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "jumper"
-			(at 74.93 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SofleKeyboard-footprint:jumper_data"
-			(at 74.93 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1614ea65-2c75-4a2b-a789-1a6e8097f186")
-		)
-		(pin "1"
-			(uuid "d1f72d92-6436-44d6-a9dc-b19cd465cd79")
-		)
-		(instances
-			(project ""
-				(path "/3c907a8e-c697-404d-9baf-89287abfa236"
-					(reference "W1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SofleKeyboard-rescue:OLED-Lily58-cache-Lily58_Pro-rescue")
 		(at 36.83 121.92 180)
 		(unit 1)
@@ -12233,6 +12235,76 @@
 		)
 	)
 	(symbol
+		(lib_id "SofleKeyboard:Conn_01x02_Female")
+		(at 143.51 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dee06ee-d4e7-495a-9027-595c5d1b9cb9")
+		(property "Reference" "BATT_HIGH1"
+			(at 144.78 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BATT_GND"
+			(at 144.78 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SofleKeyboard-footprint:Sofle_JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+			(at 143.51 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 143.51 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d290af7a-8e98-42d7-b1d0-149a7de0830e")
+		)
+		(pin "2"
+			(uuid "814e6e01-db0d-4e8d-9ed6-c758c15ab1fd")
+		)
+		(instances
+			(project ""
+				(path "/3c907a8e-c697-404d-9baf-89287abfa236"
+					(reference "BATT_HIGH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue")
 		(at 254 53.34 90)
 		(unit 1)
@@ -12369,6 +12441,71 @@
 		)
 	)
 	(symbol
+		(lib_id "SofleKeyboard:GND-Lily58-cache")
+		(at 125.73 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72709ae4-8d70-4415-9fdb-362f94ba590f")
+		(property "Reference" "#PWR015"
+			(at 125.73 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71b803f6-77af-4feb-837c-955bc2098eb2")
+		)
+		(instances
+			(project ""
+				(path "/3c907a8e-c697-404d-9baf-89287abfa236"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue")
 		(at 254 102.87 90)
 		(unit 1)
@@ -12431,6 +12568,74 @@
 			(project "SofleKeyboard"
 				(path "/3c907a8e-c697-404d-9baf-89287abfa236"
 					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SofleKeyboard:Sofle_SW_SPST")
+		(at 119.38 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7560a552-41a6-49d2-97ef-66d237501b3d")
+		(property "Reference" "SW_POW1"
+			(at 119.38 21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "POWER_SWITCH"
+			(at 119.38 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SofleKeyboard-footprint:Sofle_SW_SPDT_PCM12"
+			(at 119.38 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 119.38 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d2eb1fd-7c5a-4075-8c08-76a733522b17")
+		)
+		(pin "1"
+			(uuid "291f682e-79a9-4a6f-bbf3-d1e238989686")
+		)
+		(instances
+			(project ""
+				(path "/3c907a8e-c697-404d-9baf-89287abfa236"
+					(reference "SW_POW1")
 					(unit 1)
 				)
 			)

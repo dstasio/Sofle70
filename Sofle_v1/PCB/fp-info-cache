@@ -1,4 +1,4 @@
-26470105458440800
+26473616673723960
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97272,11 +97272,25 @@ SofleV2Logo2
 0
 0
 SofleKeyboard-footprint
-TACT_SWITCH_TVBP06
-
+Sofle_JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal
+JST PH series connector, S2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH horizontal
+0
+3
+2
+SofleKeyboard-footprint
+Sofle_SW_SPDT_PCM12
+Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf
 
 0
-2
+14
+3
+SofleKeyboard-footprint
+Sofle_Tactile Switch
+Generic 6mm tactile switch or TVBP06
+
+0
+10
 2
 SofleKeyboard-footprint
 josef_adamcik_20mm_cu_mask
